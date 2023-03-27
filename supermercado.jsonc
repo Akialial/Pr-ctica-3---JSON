@@ -1,0 +1,80 @@
+{
+    "supermercados": [
+      {
+        "nombre": "Aldi",
+        "direccion": "Calle Alcalá, 123",
+        "latitud": 40.0000,
+        "longitud": -3.0000,
+        "productos": [
+          {
+            "nombre": "Leche",
+            "oferta": {
+              "activa": true,
+              "descuento": 0.2,
+              "fecha_inicio": "2023-03-01",
+              "fecha_fin": "2023-03-31"
+            },
+            "cantidad": 1,
+            "unidad": "litros",
+            "precio": 0.99,
+            "comprado": false
+          },
+          {
+            "nombre": "Pan de molde",
+            "oferta": null,
+            "cantidad": 1,
+            "unidad": "unidad",
+            "precio": 0.75,
+            "comprado": true
+          },
+          {
+            "nombre": "Coca Cola",
+            "oferta": {
+              "activa": false,
+              "descuento": 0.3,
+              "fecha_inicio": "2023-03-15",
+              "fecha_fin": "2023-03-21"
+            },
+            "cantidad": 2,
+            "unidad": "litros",
+            "precio": 1.5,
+            "comprado": false
+          }
+        ]
+      },
+      {
+        "nombre": "Lidl",
+        "direccion": "Gran Vía, 456",
+        "latitud": 40.1000,
+        "longitud": -3.1000,
+        "productos": [
+          {
+            "nombre": "Arroz",
+            "oferta": {
+              "activa": true,
+              "descuento": 0.3,
+              "fecha_inicio": "2023-03-01",
+              "fecha_fin": "2023-03-31"
+            },
+            "cantidad": 1,
+            "unidad": "kilos",
+            "precio": 1.2,
+            "comprado": false
+          },
+          {
+            "nombre": "Galletas",
+            "oferta": {
+              "activa": true,
+              "descuento": 0.1,
+              "fecha_inicio": "2023-03-10",
+              "fecha_fin": "2023-03-16"
+            },
+            "cantidad": 1,
+            "unidad": "paquete",
+            "precio": 1.5,
+            "comprado": false
+          }
+        ]
+      }
+    ]
+  }
